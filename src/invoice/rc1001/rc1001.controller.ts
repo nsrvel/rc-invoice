@@ -22,10 +22,10 @@ const generateRC1001 = catchAsync(async (req, res) => {
 
   // Set response headers for PDF
   res.setHeader('Content-Type', 'application/pdf');
-  res.setHeader('Content-Disposition', `attachment; filename=MISR1021.pdf`);
+  res.setHeader('Content-Disposition', `attachment; filename=DNT-INVOICE.pdf`);
 
   // Send PDF as response
-  report.stream.pipe(res);
+  report.pipe(res);
 });
 
 export default generateRC1001;

@@ -14,9 +14,9 @@ const envVarsSchema = z.object({
   JS_REPORT_PREFIX: z.string().default('/api/reporting'),
   JS_REPORT_FS: z.string().default('/store/data'),
   JS_REPORT_COOKIE_SESH_SECRET: z.string(),
-  JS_REPORT_API_BASE_URL: z.string().optional(),
-  JS_REPORT_API_USERNAME: z.string().optional(),
-  JS_REPORT_API_PASSWORD: z.string().optional()
+  JS_REPORT_API_BASE_URL: z.string(),
+  JS_REPORT_API_USERNAME: z.string(),
+  JS_REPORT_API_PASSWORD: z.string()
 });
 
 const envVars = envVarsSchema.parse(process.env);

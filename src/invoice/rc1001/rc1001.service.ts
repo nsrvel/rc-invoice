@@ -1,5 +1,6 @@
-import { jsReportClient as client } from '../../exts/js-report';
+// import { jsReportClient as client } from '../../exts/js-report';
 import { GeneratePayload, RC1001_DATA } from './rc1001.model';
+import client from '../../jsreport';
 
 const generateRC1001 = async (payload: GeneratePayload) => {
   // Format & Filter Data
@@ -12,7 +13,7 @@ const generateRC1001 = async (payload: GeneratePayload) => {
   };
 
   // Generate PDF File
-  const pdf = await client().render({
+  const pdf = await client.render({
     template: {
       name: 'rc1001-main',
       engine: 'handlebars',
