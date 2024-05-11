@@ -4,6 +4,7 @@
   "description": "",
   "main": "src/index.ts",
   "scripts": {
+    "build": "tsc",
     "start": "ts-node src/index.ts",
     "js-report:studio": "ts-node src/exts/js-report/app.ts",
     "test": "jest -i --colors --verbose --detectOpenHandles",
