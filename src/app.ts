@@ -38,7 +38,7 @@ app.use(compression());
 // enable cors
 app.use(cors());
 app.options('*', cors());
-
+//
 app.get('/', (_req, res) => {
   res.send('The server is running...');
 });
