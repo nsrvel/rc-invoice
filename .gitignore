@@ -19,3 +19,4 @@ build
 
 # js-report
 # src/exts/js-report/store/*
+.vercel
