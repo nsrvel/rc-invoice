@@ -1,0 +1,36 @@
+/* eslint-disable @typescript-eslint/no-var-requires */
+import { Server } from 'http';
+
+import app from './app';
+import config from './config/config';
+import logger from './utils/logger';
+
+const server: Server = app.listen(config.port, () => {
+  logger.info(`Listening to port ${config.port}`);
+});
+
+function exitHandler() {
+  if (server) {
+    server.close(() => {
+      logger.info('Server closed');
+      process.exit(1);
+    });
+  } else {
+    process.exit(1);
+  }
+}
+
+function unexpectedErrorHandler(error: unknown) {
+  logger.error(error);
+  exitHandler();
+}
+
+process.on('uncaughtException', unexpectedErrorHandler);
+process.on('unhandledRejection', unexpectedErrorHandler);
+
+process.on('SIGTERM', () => {
+  logger.info('SIGTERM received');
+  if (server) {
+    server.close();
+  }
+});

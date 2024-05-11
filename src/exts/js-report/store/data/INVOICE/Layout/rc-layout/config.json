@@ -1,0 +1,23 @@
+{
+    "name": "rc-layout",
+    "engine": "handlebars",
+    "recipe": "chrome-pdf",
+    "shortid": "CMNdriBaV",
+    "chrome": {
+        "marginTop": "1cm",
+        "displayHeaderFooter": false,
+        "marginRight": "1cm",
+        "marginLeft": "1cm",
+        "marginBottom": "1cm"
+    },
+    "creationDate": {
+        "$$date": 1715407113782
+    },
+    "modificationDate": {
+        "$$date": 1715428235387
+    },
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "XD8i5PE10CvfDf2T",
+    "$entitySet": "templates"
+}

@@ -1,0 +1,14 @@
+{
+    "name": "RC1001",
+    "creationDate": {
+        "$$date": 1715403520474
+    },
+    "modificationDate": {
+        "$$date": 1715403520474
+    },
+    "shortid": "M8EHIUM",
+    "inheritedReadPermissions": [],
+    "inheritedEditPermissions": [],
+    "_id": "2PZJaZbfO8vVgUvB",
+    "$entitySet": "folders"
+}

@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 100%;
+    height: 100%;
+}
+
+.header {
+    width: 100%;
+    height: 110px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.footer {
+    width: 100%;
+    font-size: 14px;
+}
+
+.hand_sign{
+    height: 60px;
+}
+
+.logo {
+    vertical-align: center;
+}
+
+.company-logo {
+    margin: auto;
+    width:130px;
+    height:auto;
+}
+
+.identity {
+    padding-top: 6px;
+    vertical-align: center;
+    text-align: left;
+    line-height: 0.8;
+}
+
+.company_name{
+    font-size: 20px;
+}
+
+.company_address{
+    font-size: 12px;
+}
+
+.company_phone_number{
+    font-size: 12px;
+}
+
+.w-full{
+    width: 100%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.text-left{
+    text-align: left;
+}
+
+.text-right{
+    text-align: right;
+}
+
+.titik-dua{
+    text-align: center;
+    width: 8px;
+}
+
+.invoice {
+    text-align: right;;
+    vertical-align: center;
+    line-height: 0.8;
+}
+
+.invoice_text{
+    font-size: 30px;
+}
+
+.no_invoice_text{
+    font-size: 14px;
+}

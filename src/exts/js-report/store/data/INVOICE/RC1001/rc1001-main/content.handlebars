@@ -1,0 +1,109 @@
+<style>
+    {{asset "rc1001-styles.css"}}
+</style>
+
+<div class="report-box">
+    {{{pdfCreatePagesGroup no_invoice=no_invoice company_name=company_name company_address=company_address company_phone_number=company_phone_number blth=blth company_code=company_code}}}
+    <table class="main_table" cellpadding="0" cellspacing="0">
+        <thead>
+            <tr class="content heading">
+                <td>
+                    NO.
+                </td>
+                <td>
+                    TGL
+                </td>
+                <td>
+                    KETERANGAN
+                </td>
+                <td>
+                    HARGA (RP)
+                </td>
+            </tr>
+        </thead>
+        <tbody>
+            {{#each items}}
+                {{#if @index}}
+                    <div style="page-break-before: always;"></div>
+                {{/if}}
+                <tr class="content item">
+                    <td class="text-center">
+                        {{addOne @index}}
+                    </td>
+                    <td class="date_column">
+                        {{date}}
+                    </td>
+                    <td class="description_column">
+                        <table class="description_table">
+                            <tr>
+                                <td class = "text-right">
+                                    Nama Klien
+                                </td>
+                                <td class = "titik-dua">
+                                    :
+                                </td>
+                                <td class = "text-left">
+                                    {{description.client_name}}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class = "text-right">
+                                    Layanan
+                                </td>
+                                <td class = "titik-dua">
+                                    :
+                                </td>
+                                <td class = "text-left">
+                                    {{description.service}}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class = "text-right">
+                                    Lokasi Jemput
+                                </td>
+                                <td class = "titik-dua">
+                                    :
+                                </td>
+                                <td class = "text-left">
+                                    {{description.pickup_location}}
+                                </td>
+                            </tr>
+                            <tr>
+                                <td class = "text-right">
+                                    Lokasi Tujuan
+                                </td>
+                                <td class = "titik-dua">
+                                    :
+                                </td>
+                                <td class = "text-left">
+                                    {{description.destination_location}}
+                                </td>
+                            </tr>
+                        </table>
+                    </td>
+                    <td class="price_column">
+                        {{formatPrice price}}
+                    </td>
+                </tr>
+            {{/each}}
+        </tbody>
+    </table>
+    <table class="total_table">
+        <tr>
+            <td class = "text-right">
+                TOTAL
+            </td>
+            <td class = "text-left">
+                {{total items}}
+            </td>
+        </tr>
+        <tr>
+            <td class = "text-right">
+                IDR
+            </td>
+            <td class = "terbilang">
+                {{totalText items}}
+            </td>
+        </tr>
+    </table>
+</div>
