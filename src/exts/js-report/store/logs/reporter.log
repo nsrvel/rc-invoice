@@ -5594,3 +5594,153 @@ Error: Unable to find specified template (RC1001-main)
 2024-05-11T12:52:14.475Z - info: 2 worker threads initialized in 88ms
 2024-05-11T12:52:14.475Z - info: Starting temp files cleanup with 180000ms threshold
 2024-05-11T12:52:14.475Z - info: reporter initialized
+2024-05-11T13:14:50.837Z - info: Initializing jsreport (version: 4.3.1, configuration file: none, nodejs: 20.11.0)
+2024-05-11T13:14:50.839Z - info: Searching for available extensions in /Users/putra/Development/Explore/rentcar-invoice/server/
+2024-05-11T13:14:50.841Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/putra/Development/Explore/rentcar-invoice/server/
+2024-05-11T13:14:50.863Z - info: Found 35 extension(s)
+2024-05-11T13:14:50.902Z - info: Using extension authentication@4.1.1
+2024-05-11T13:14:50.971Z - info: Using extension base@4.0.0
+2024-05-11T13:14:50.974Z - info: Using extension child-templates@4.1.0
+2024-05-11T13:14:50.975Z - info: Using extension cli@4.0.4
+2024-05-11T13:14:50.976Z - info: Using extension components@4.0.0
+2024-05-11T13:14:50.977Z - info: Using extension data@4.1.0
+2024-05-11T13:14:50.977Z - info: Using extension freeze@4.0.0
+2024-05-11T13:14:50.978Z - info: Using extension fs-store@4.0.3
+2024-05-11T13:14:51.037Z - info: Using extension handlebars@4.0.1
+2024-05-11T13:14:51.038Z - info: Using extension import-export@4.0.3
+2024-05-11T13:14:51.112Z - info: Using extension jsrender@4.0.0
+2024-05-11T13:14:51.112Z - info: Using extension licensing@4.0.2
+2024-05-11T13:14:51.122Z - info: Using extension localization@4.0.1
+2024-05-11T13:14:51.123Z - info: Using extension npm@4.0.0
+2024-05-11T13:14:51.124Z - info: Using extension pdf-utils@4.1.1
+2024-05-11T13:14:51.125Z - info: Using extension reports@4.1.1
+2024-05-11T13:14:51.126Z - info: Using extension tags@4.0.1
+2024-05-11T13:14:51.127Z - info: Using extension text@4.0.0
+2024-05-11T13:14:51.127Z - info: Using extension version-control@4.0.0
+2024-05-11T13:14:51.133Z - info: Using extension assets@4.1.0
+2024-05-11T13:14:51.139Z - info: Using extension authorization@4.0.0
+2024-05-11T13:14:51.141Z - info: Using extension browser-client@4.1.0
+2024-05-11T13:14:51.142Z - info: Using extension chrome-pdf@4.1.0
+2024-05-11T13:14:51.143Z - info: Using extension docx@4.2.1
+2024-05-11T13:14:51.144Z - info: Using extension html-to-xlsx@4.1.1
+2024-05-11T13:14:51.294Z - info: html-to-xlsx detected chrome as available html engine
+2024-05-11T13:14:51.294Z - info: Using extension pptx@4.2.0
+2024-05-11T13:14:51.295Z - info: Using extension scheduling@4.0.0
+2024-05-11T13:14:51.314Z - info: Using extension scripts@4.1.0
+2024-05-11T13:14:51.315Z - info: Using extension static-pdf@4.1.0
+2024-05-11T13:14:51.315Z - info: Using extension xlsx@4.1.0
+2024-05-11T13:14:51.316Z - info: Using extension public-templates@4.0.0
+2024-05-11T13:14:51.317Z - info: Using extension sample-template@4.0.0
+2024-05-11T13:14:51.318Z - info: Using extension studio-theme-dark@4.0.0
+2024-05-11T13:14:51.318Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2024-05-11T13:14:51.318Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2024-05-11T13:14:51.318Z - info: Using fs provider for template store.
+2024-05-11T13:14:51.321Z - info: fs store is persisting using fs for /Users/putra/Development/Explore/rentcar-invoice/server/src/exts/js-report/store/data
+2024-05-11T13:14:51.323Z - info: fs store is loading data
+2024-05-11T13:14:51.335Z - info: fs store is initialized successfully
+2024-05-11T13:14:51.344Z - info: Verifying license key free
+2024-05-11T13:14:51.344Z - info: Using free license
+2024-05-11T13:14:51.346Z - info: Initializing worker threads
+2024-05-11T13:14:51.453Z - info: 2 worker threads initialized in 107ms
+2024-05-11T13:14:51.453Z - info: Starting temp files cleanup with 180000ms threshold
+2024-05-11T13:14:51.454Z - info: reporter initialized
+2024-05-11T13:15:13.739Z - info: Initializing jsreport (version: 4.3.1, configuration file: none, nodejs: 20.11.0)
+2024-05-11T13:15:13.740Z - info: Searching for available extensions in /Users/putra/Development/Explore/rentcar-invoice/server/
+2024-05-11T13:15:13.743Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/putra/Development/Explore/rentcar-invoice/server/
+2024-05-11T13:15:13.757Z - info: Found 35 extension(s)
+2024-05-11T13:15:13.789Z - info: Using extension authentication@4.1.1
+2024-05-11T13:15:13.852Z - info: Using extension base@4.0.0
+2024-05-11T13:15:13.855Z - info: Using extension child-templates@4.1.0
+2024-05-11T13:15:13.856Z - info: Using extension cli@4.0.4
+2024-05-11T13:15:13.856Z - info: Using extension components@4.0.0
+2024-05-11T13:15:13.857Z - info: Using extension data@4.1.0
+2024-05-11T13:15:13.858Z - info: Using extension freeze@4.0.0
+2024-05-11T13:15:13.858Z - info: Using extension fs-store@4.0.3
+2024-05-11T13:15:13.912Z - info: Using extension handlebars@4.0.1
+2024-05-11T13:15:13.913Z - info: Using extension import-export@4.0.3
+2024-05-11T13:15:13.978Z - info: Using extension jsrender@4.0.0
+2024-05-11T13:15:13.979Z - info: Using extension licensing@4.0.2
+2024-05-11T13:15:13.988Z - info: Using extension localization@4.0.1
+2024-05-11T13:15:13.989Z - info: Using extension npm@4.0.0
+2024-05-11T13:15:13.990Z - info: Using extension pdf-utils@4.1.1
+2024-05-11T13:15:13.991Z - info: Using extension reports@4.1.1
+2024-05-11T13:15:13.992Z - info: Using extension tags@4.0.1
+2024-05-11T13:15:13.993Z - info: Using extension text@4.0.0
+2024-05-11T13:15:13.993Z - info: Using extension version-control@4.0.0
+2024-05-11T13:15:13.999Z - info: Using extension assets@4.1.0
+2024-05-11T13:15:14.005Z - info: Using extension authorization@4.0.0
+2024-05-11T13:15:14.007Z - info: Using extension browser-client@4.1.0
+2024-05-11T13:15:14.009Z - info: Using extension chrome-pdf@4.1.0
+2024-05-11T13:15:14.010Z - info: Using extension docx@4.2.1
+2024-05-11T13:15:14.010Z - info: Using extension html-to-xlsx@4.1.1
+2024-05-11T13:15:14.137Z - info: html-to-xlsx detected chrome as available html engine
+2024-05-11T13:15:14.137Z - info: Using extension pptx@4.2.0
+2024-05-11T13:15:14.138Z - info: Using extension scheduling@4.0.0
+2024-05-11T13:15:14.158Z - info: Using extension scripts@4.1.0
+2024-05-11T13:15:14.158Z - info: Using extension static-pdf@4.1.0
+2024-05-11T13:15:14.159Z - info: Using extension xlsx@4.1.0
+2024-05-11T13:15:14.159Z - info: Using extension public-templates@4.0.0
+2024-05-11T13:15:14.160Z - info: Using extension sample-template@4.0.0
+2024-05-11T13:15:14.161Z - info: Using extension studio-theme-dark@4.0.0
+2024-05-11T13:15:14.161Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2024-05-11T13:15:14.161Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2024-05-11T13:15:14.162Z - info: Using fs provider for template store.
+2024-05-11T13:15:14.164Z - info: fs store is persisting using fs for /Users/putra/Development/Explore/rentcar-invoice/server/src/exts/js-report/store/data
+2024-05-11T13:15:14.166Z - info: fs store is loading data
+2024-05-11T13:15:14.176Z - info: fs store is initialized successfully
+2024-05-11T13:15:14.186Z - info: Verifying license key free
+2024-05-11T13:15:14.186Z - info: Using free license
+2024-05-11T13:15:14.189Z - info: Initializing worker threads
+2024-05-11T13:15:14.283Z - info: 2 worker threads initialized in 94ms
+2024-05-11T13:15:14.283Z - info: Starting temp files cleanup with 180000ms threshold
+2024-05-11T13:15:14.284Z - info: reporter initialized
+2024-05-11T13:17:23.023Z - info: Initializing jsreport (version: 4.3.1, configuration file: none, nodejs: 20.11.0)
+2024-05-11T13:17:23.024Z - info: Searching for available extensions in /Users/putra/Development/Explore/rentcar-invoice/server/
+2024-05-11T13:17:23.027Z - info: Extensions location cache contains up to date information, skipping crawling in /Users/putra/Development/Explore/rentcar-invoice/server/
+2024-05-11T13:17:23.044Z - info: Found 35 extension(s)
+2024-05-11T13:17:23.082Z - info: Using extension authentication@4.1.1
+2024-05-11T13:17:23.145Z - info: Using extension base@4.0.0
+2024-05-11T13:17:23.148Z - info: Using extension child-templates@4.1.0
+2024-05-11T13:17:23.149Z - info: Using extension cli@4.0.4
+2024-05-11T13:17:23.150Z - info: Using extension components@4.0.0
+2024-05-11T13:17:23.150Z - info: Using extension data@4.1.0
+2024-05-11T13:17:23.151Z - info: Using extension freeze@4.0.0
+2024-05-11T13:17:23.152Z - info: Using extension fs-store@4.0.3
+2024-05-11T13:17:23.223Z - info: Using extension handlebars@4.0.1
+2024-05-11T13:17:23.224Z - info: Using extension import-export@4.0.3
+2024-05-11T13:17:23.305Z - info: Using extension jsrender@4.0.0
+2024-05-11T13:17:23.305Z - info: Using extension licensing@4.0.2
+2024-05-11T13:17:23.321Z - info: Using extension localization@4.0.1
+2024-05-11T13:17:23.322Z - info: Using extension npm@4.0.0
+2024-05-11T13:17:23.325Z - info: Using extension pdf-utils@4.1.1
+2024-05-11T13:17:23.327Z - info: Using extension reports@4.1.1
+2024-05-11T13:17:23.328Z - info: Using extension tags@4.0.1
+2024-05-11T13:17:23.329Z - info: Using extension text@4.0.0
+2024-05-11T13:17:23.329Z - info: Using extension version-control@4.0.0
+2024-05-11T13:17:23.335Z - info: Using extension assets@4.1.0
+2024-05-11T13:17:23.343Z - info: Using extension authorization@4.0.0
+2024-05-11T13:17:23.345Z - info: Using extension browser-client@4.1.0
+2024-05-11T13:17:23.346Z - info: Using extension chrome-pdf@4.1.0
+2024-05-11T13:17:23.348Z - info: Using extension docx@4.2.1
+2024-05-11T13:17:23.349Z - info: Using extension html-to-xlsx@4.1.1
+2024-05-11T13:17:23.509Z - info: html-to-xlsx detected chrome as available html engine
+2024-05-11T13:17:23.509Z - info: Using extension pptx@4.2.0
+2024-05-11T13:17:23.510Z - info: Using extension scheduling@4.0.0
+2024-05-11T13:17:23.530Z - info: Using extension scripts@4.1.0
+2024-05-11T13:17:23.530Z - info: Using extension static-pdf@4.1.0
+2024-05-11T13:17:23.531Z - info: Using extension xlsx@4.1.0
+2024-05-11T13:17:23.532Z - info: Using extension public-templates@4.0.0
+2024-05-11T13:17:23.533Z - info: Using extension sample-template@4.0.0
+2024-05-11T13:17:23.534Z - info: Using extension studio-theme-dark@4.0.0
+2024-05-11T13:17:23.534Z - info: Code sandboxing is disabled, users can potentially penetrate the local system if you allow code from external users to be part of your reports
+2024-05-11T13:17:23.534Z - info: Using general timeout for rendering (reportTimeout: 60000)
+2024-05-11T13:17:23.534Z - info: Using fs provider for template store.
+2024-05-11T13:17:23.539Z - info: fs store is persisting using fs for /Users/putra/Development/Explore/rentcar-invoice/server/src/exts/js-report/store/data
+2024-05-11T13:17:23.541Z - info: fs store is loading data
+2024-05-11T13:17:23.561Z - info: fs store is initialized successfully
+2024-05-11T13:17:23.573Z - info: Verifying license key free
+2024-05-11T13:17:23.574Z - info: Using free license
+2024-05-11T13:17:23.576Z - info: Initializing worker threads
+2024-05-11T13:17:23.671Z - info: 2 worker threads initialized in 95ms
+2024-05-11T13:17:23.671Z - info: Starting temp files cleanup with 180000ms threshold
+2024-05-11T13:17:23.672Z - info: reporter initialized

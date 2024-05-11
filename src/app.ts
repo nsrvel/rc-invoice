@@ -39,6 +39,17 @@ app.use(compression());
 app.use(cors());
 app.options('*', cors());
 
+app.get('/', (_req, res) => {
+  try {
+    res.sendFile(path.join(__dirname, './public/home.html'));
+  } catch (err) {
+    res.status(500).send({
+      success: false,
+      message: err
+    });
+  }
+});
+
 // v1 api routes
 app.use(rc1001);
 
