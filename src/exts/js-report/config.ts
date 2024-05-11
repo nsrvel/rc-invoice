@@ -15,11 +15,11 @@ export const config = {
       transport: 'console',
       level: 'debug'
     },
-    file: {
-      transport: 'file',
-      level: 'info',
-      filename: `${rootPath}/store/logs/reporter.log`
-    },
+    // file: {
+    //   transport: 'file',
+    //   level: 'info',
+    //   filename: `${rootPath}/store/logs/reporter.log`
+    // },
     error: {
       transport: 'file',
       level: 'error',
