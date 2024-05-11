@@ -15,6 +15,10 @@ export const config = {
       transport: 'console',
       level: 'debug'
     },
+    file: {
+      transport: 'console',
+      level: 'off'
+    },
     // file: {
     //   transport: 'file',
     //   level: 'info',
