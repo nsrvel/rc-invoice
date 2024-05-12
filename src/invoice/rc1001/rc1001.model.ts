@@ -6,14 +6,12 @@ export type GeneratePayload = {
 export type RC1001_PAYLOAD_ITEMS = {
   departure_date: string;
   return_date: string;
-  description: {
-    service: string;
-    car: string;
-    pickup_location: string;
-    destination_location: string;
-    adultPassengerCount: number;
-    infantPassengerCount: number;
-  };
+  service: string;
+  car: string;
+  pickup_location: string;
+  destination_location: string;
+  adultPassengerCount: number;
+  infantPassengerCount: number;
   is_round_trip: boolean;
   price: number;
 };
@@ -28,13 +26,11 @@ export type RC1001_DATA = {
 
 export type RC1001_DATA_ITEMS = {
   date: string;
-  description: {
-    client_name: string;
-    service: string;
-    car: string;
-    pickup_location: string;
-    destination_location: string;
-    passenger: string;
-  };
+  client_name: string;
+  service: string;
+  car: string;
+  pickup_location: string;
+  destination_location: string;
+  passenger: string;
   price: number;
 };

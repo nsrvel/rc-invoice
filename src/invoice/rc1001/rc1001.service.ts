@@ -8,17 +8,12 @@ const generateRC1001 = async (payload: GeneratePayload) => {
   // Format & Filter Data
   const items: RC1001_DATA_ITEMS[] = payload.items.map((obj) => ({
     date: getCustomDate(obj.departure_date, obj.return_date, obj.is_round_trip),
-    description: {
-      client_name: payload.client_name,
-      service: getServiceName(obj.description.service, obj.is_round_trip),
-      car: obj.description.car,
-      pickup_location: obj.description.pickup_location,
-      destination_location: obj.description.destination_location,
-      passenger: getPassengerText(
-        obj.description.adultPassengerCount,
-        obj.description.infantPassengerCount
-      )
-    },
+    client_name: payload.client_name,
+    service: getServiceName(obj.service, obj.is_round_trip),
+    car: obj.car,
+    pickup_location: obj.pickup_location,
+    destination_location: obj.destination_location,
+    passenger: getPassengerText(obj.adultPassengerCount, obj.infantPassengerCount),
     price: obj.price
   }));
 
